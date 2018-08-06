@@ -1,0 +1,26 @@
+{
+  "name": "dongdongbot",
+  "version": "1.0.0",
+  "description": "dongdongbot",
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mac0314/PPlusfriend-Tutorial.git"
+  },
+  "author": "Richard McSorley",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "~1.15.1",
+    "debug": "~2.2.0",
+    "dialogflow": "^0.6.0",
+    "dotenv": "^6.0.0",
+    "ejs": "^2.5.5",
+    "express": "~4.13.4",
+    "moment": "^2.17.1",
+    "morgan": "~1.7.0",
+    "request-promise": "^4.2.2",
+    "uuid": "^3.3.2"
+  }
+}

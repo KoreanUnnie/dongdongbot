@@ -1,0 +1,26 @@
+{
+  "name": "dongdong-bot",
+  "alias": [
+    "bot.dongdongchat.com"
+  ],
+  "dotenv": ".env.production",
+  "files": [
+    "creds.json",
+    "bin",
+    "routes",
+    "views",
+    "app.js"
+  ],
+  "type": "npm",
+  "public": false,
+  "scale": {
+    "sfo1": {
+      "min": 1,
+      "max": 5
+    },
+    "bru1": {
+      "min": 1,
+      "max": 5
+    }
+  }
+}

@@ -7,7 +7,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/mac0314/PPlusfriend-Tutorial.git"
+    "url": "git+https://github.com/RichardMcSorley/dongdongbot.git"
   },
   "author": "Richard McSorley",
   "license": "MIT",
@@ -20,6 +20,7 @@
     "express": "~4.13.4",
     "moment": "^2.17.1",
     "morgan": "~1.7.0",
+    "request": "^2.87.0",
     "request-promise": "^4.2.2",
     "uuid": "^3.3.2"
   }

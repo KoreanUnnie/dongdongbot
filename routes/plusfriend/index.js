@@ -13,7 +13,6 @@ const sessionClient = new dialogflow.SessionsClient();
  *          route             *
  ******************************/
 
-// https://github.com/plusfriend/auto_reply
 // Home Keyboard API
 router.get('/keyboard', function(req, res, next){
 	var resultObject = new Object();
@@ -69,7 +68,7 @@ router.post('/message', async function(req, res, next){
 			res.json(resultObject);
 	  })
 	  .catch(err => {
-
+			console.log('session client error', err)
 	  });
 });
 

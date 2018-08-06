@@ -1,7 +1,7 @@
 {
   "name": "dongdong-bot",
   "alias": [
-    "bot.dongdongchat.com"
+    "dongdongbot"
   ],
   "dotenv": ".env.production",
   "files": [
